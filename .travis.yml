@@ -18,7 +18,7 @@ deploy:
   app: grapes
   domain: cforge
   on:
-    repo: PieterVanPittens/grapes
+    repo: PieterVanPittens/makani
     branch: develop
   deployment_branch: master
 after_success:
