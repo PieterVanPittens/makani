@@ -19,7 +19,7 @@ deploy:
   domain: cforge
   on:
     repo: PieterVanPittens/makani
-    branch: develop
+    branch: master
   deployment_branch: master
 after_success:
 - git config --global user.email "travis@localhost.localdomain"
